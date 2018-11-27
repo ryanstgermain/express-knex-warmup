@@ -18,9 +18,8 @@ app.get("*", function(req, res) {
     res.send("Page not found: 707")
 })
 
-app.listen(3000, function() {
-    console.log("Listening on ${port}");
-    console.log("")
+app.listen(port, function() {
+    console.log(`Listening on ${port}`);
 })
 
 module.exports = app
