@@ -21,6 +21,10 @@ app.post('/', (req, res) => {
     queries.createStudent(req.body).then(students => res.send(students))
 })
 
+app.delete('/:id', (req, res) => {
+    queries.deleteStudent(req.params.id).then(res.sendStatus(204))
+})
+
 app.get("*", function(req, res) {
     res.send("Page not found: 707")
 })
