@@ -7,6 +7,8 @@ const config = require("./knexfile");
 const queries = require('./queries.js');
 const cors = require('cors')
 
+app.use(cors())
+
 app.use(bodyParser.json())
 
 app.get("/", function(req, res) {
