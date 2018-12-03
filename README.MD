@@ -10,7 +10,7 @@
     PostgreSQL
 
 ## Link to frontend & backend repo
-    [Here](https://github.com/ryanstgermain/express-knex-warmup)
+    https://github.com/ryanstgermain/express-knex-warmup
 
 ## Link to deployed site
     ryanstgermain.surge.sh
